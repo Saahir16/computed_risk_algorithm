@@ -18,8 +18,8 @@ How to run everything:
 
 pip install -r requirements.txt
 Make the data and results folders in the same space as the files since the figures will be saved in there alongside other things
-Commands to run:
 
+Commands to run:
 python dataset.py --seed 42 --n 1000 --out data/transactions_seed42.csv
 python experiments.py
 python double_check.py
