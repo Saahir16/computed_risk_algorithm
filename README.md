@@ -8,11 +8,17 @@ What the code does is make simulated vendor transactions and then compare a cont
 Files included are:
 
 dataset.py: makes the simulated transactions
+
 detectors.py: has the rule based detectors, the contextual framework, and the metrics
+
 experiments.py: runs everything on 30 seeds and saves the results
+
 double_check.py: checks the code with separate loops
+
 charts.py: has the colors and style for the figures
+
 dataset_figure.py, overall_figure.py, figures_by_type.py, score_distribution.py, and detection_and_precision_figure.py: the five figures/graphs from the experiments
+
 
 How to run everything:
 
