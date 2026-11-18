@@ -41,3 +41,5 @@ python figures_by_type.py
 python score_distribution.py
 
 python detection_and_precision_figure.py
+
+The outputs I got from my run are in this repo as well. If you just run the code with the commands above, then you should get the same outputs in the data, results, and figures folders.
