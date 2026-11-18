@@ -21,10 +21,17 @@ Make the data and results folders in the same space as the files since the figur
 
 Commands to run:
 python dataset.py --seed 42 --n 1000 --out data/transactions_seed42.csv
+
 python experiments.py
+
 python double_check.py
+
 python dataset_figure.py
+
 python overall_figure.py
+
 python figures_by_type.py
+
 python score_distribution.py
+
 python detection_and_precision_figure.py
