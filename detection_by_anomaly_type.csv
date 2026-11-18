@@ -1,0 +1,7 @@
+anomaly_type,Rule: single threshold (greater than $10k),Rule: multi-rule engine,Contextual: Risk>=61 OR Trust<60,Contextual: Risk>=61 only,Contextual: Trust<60 only,Contextual: Risk>=31 OR Trust<85,Contextual: equal weights (primary thresholds)
+large_amount,1.0,1.0,0.985,0.985,0.002,1.0,0.877
+spike_below_threshold,0.0,0.0,0.904,0.904,0.0,1.0,0.484
+bank_change,0.206,1.0,0.163,0.017,0.148,1.0,0.143
+split_invoicing,0.0,0.594,0.544,0.544,0.0,1.0,0.476
+approval_ledger_bypass,0.206,1.0,0.862,0.007,0.862,1.0,0.97
+subtle_drift,0.442,0.442,0.595,0.578,0.069,1.0,0.411
